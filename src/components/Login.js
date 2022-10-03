@@ -40,9 +40,11 @@ const  Login = () => {
   const handleSearch = (e) => {
     setSearchTerm(e.target.value)
   };
-
+  // converted the search term to string and then applied lowercase method, this allows search input to be case-insensitive.
+  
   const filterList = tasks.filter((task) => {
-  return  task.taskname.toLowerCase().includes(searchTerm);
+    var searchTermTemp = String(searchTerm);
+    return  task.taskname.toLowerCase().indexOf(searchTermTemp.toLowerCase())>=0;
   })
 
       // User Login info
