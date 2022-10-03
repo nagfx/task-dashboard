@@ -1,3 +1,15 @@
+# Built a task management application
+
+This was built using Semantics UI and custom css for styling, and React.js a Javascript framework.
+This is a dashboard-task management application.
+
+
+You can clone and in terminal write "npm start" to host and run the application in your browser at http://localhost:3000
+use 
+username: admin
+password: admin123
+to login and use the application.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
